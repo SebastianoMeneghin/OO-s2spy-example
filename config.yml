@@ -1,0 +1,14 @@
+name: beyondweather
+channels: 
+- defaults
+- conda-forge
+dependencies:
+- python>=3.9,<3.11
+- matplotlib
+- numpy
+- scikit-learn
+#- torch
+- tqdm
+- wandb
+- xarray
+- lilio
